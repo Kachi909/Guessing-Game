@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(1774.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #007bff;
+    
+}
+
+.owl{
+    width: 180px;
+    position: absolute;
+    top: 53px;
+
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: px;
+    margin-bottom: 24px;
+
+}
+
+.body_text{
+    color: #fff;
+
+}
+
+.container {
+    text-align: center;
+    background-color: #33383b;
+    padding: 40px 80px;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+
+}
+
+
+button {
+    padding: 12px 100px;
+    margin-top: 10px;
+    background-color: #e77326;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #e77326;
+}
+
+input{
+    padding: 16px 24PX;
+    margin-top: 50px;
+    border: solid white;
+    border-radius: 8px;
+    background-color: #33383b;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#result {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#chances{
+    font-weight: bold;
+    color: #555;
+}
+
+.button2{
+    margin-bottom: 20px;
+}
+
+button[onclick="replay()"] {
+    margin-top: 20px;
+    background-color: #33383b;
+    border: #e77326 2px solid;
+    color: #e77326;
+}
+
+button[onclick="replay()"]:hover {
+    background-color: #e77326;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}

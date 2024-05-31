@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing game</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="owl">
+        <img src="file (2).png" width="100%">
+    </div>
+    
+    <div class="container">
+        <h1>GUESS MY NUMBER GAME</h1>
+        <p class="body_text">i have selected a number between 1 and 100. Can you guess it?</p>
+        <input type="number" id="UserGuess"  min="1" max="100" /> 
+        <div class="button1">
+            <button onclick="checkGuess ()">Submit Guess</button>
+        </div>
+        
+        <p id="result"></p>
+        <p>Chances Left: <span id="Chances">3</span></p>
+        <div class="button2">
+            <button  onclick="replay()">Replay</button>
+        </div>
+        
+    </div>
+</body>
+</html>
